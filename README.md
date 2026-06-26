@@ -23,7 +23,7 @@ Users can add a new contact by providing:
 - Email Address
 
 2. SEARCH CONTACT
-Users can search for a contact using the contact's name.
+   Users can search for a contact using the contact's name.
 
 If the contact exists, the application displays:
 - Name
@@ -33,7 +33,7 @@ If the contact exists, the application displays:
 If the contact does not exist, an appropriate message is displayed.
 
 3. LIST ALL CONTACT
-The application displays all contacts sorted alphabetically by name.
+   The application displays all contacts sorted alphabetically by name.
 
 ---
 
@@ -50,8 +50,6 @@ The application stores contacts as an array of objects.
 Example:
 
 ```javascript
-{
-    name: "John Doe",
+    (name: "John Doe",
     phone: "08012345678",
-    email: "john.doe@email.com"
-}
+    email: "john.doe@email.com")
